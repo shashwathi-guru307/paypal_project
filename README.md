@@ -15,13 +15,21 @@ the work, an LLM reviews it against the requirements and *advises*, and a human 
 
 ## Screenshots
 
-[ADD SCREENSHOT: Client tab — task form and a task with the "Pay $1.00 with PayPal" button]
+### Client creates a task
 
-[ADD SCREENSHOT: Review tab — requirements next to the submission, AI verdict bar, Approve/Reject]
+![Client tab with the task form and an existing task](screenshots/client-task-form.png)
 
-[ADD SCREENSHOT: Confirm dialog — "You are about to pay $1.00 USD to … This cannot be undone"]
+### PayPal checkout and funding
 
-[ADD SCREENSHOT: PAID task — payout batch id, payout status, audit log]
+![Created task with the PayPal checkout button](screenshots/client-created-task.png)
+
+![PayPal return page confirming the $1.00 sandbox payment](screenshots/paypal-payment-confirmed.png)
+
+### Freelancer and review flow
+
+![Review queue showing a funded task awaiting submission](screenshots/review-queue.png)
+
+![Freelancer view for submitting work on a funded task](screenshots/freelancer-submission.png)
 
 ---
 
