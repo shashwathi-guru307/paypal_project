@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------------------
+# Secrets - never commit these
+# ---------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# Firebase service account keys (any common naming)
+secrets/
+*.json.key
+serviceAccountKey*.json
+service-account*.json
+*-firebase-adminsdk-*.json
+firebase-credentials*.json
+
+# ---------------------------------------------------------------------------
+# Local run artefacts (not secrets, but machine-specific noise)
+# ---------------------------------------------------------------------------
+backend/.dev_task_id
+backend/.uvicorn.log
+frontend/.env
+frontend/dist/
+*.log
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------------------------------------------------------------------------
+# Node / Vite
+# ---------------------------------------------------------------------------
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------------------------------------------------------------------------
+# Editors / OS
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
